@@ -1,8 +1,16 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react';
+import Header from '../components/Header';
 
 function Tools() {
+
+  const [income, setIncome] = useState([]);
+  const [totalIncome, setTotalIncome] = useState(0);
+
+
   return (
-    <div>Tools</div>
+    <div>
+      <Header totalIncome={totalIncome}/>
+    </div>
   )
 }
 
