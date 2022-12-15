@@ -14,10 +14,9 @@ function App() {
     <Routes>
   
       <Route path='/' element={<TodoList/>}/>
-      <Route path='/About' element={<About/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/Tools' element={<Tools/>}/>
-      
+      <Route path='/About' element={<About/>}/>
  
     </Routes>
   </BrowserRouter>

@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import TicTacToe from '../components/TicTacToe';
+
 
 function About() {
   return (
-    <div>About</div>
+    <div>
+      <TicTacToe/>
+    </div>
   )
 }
 

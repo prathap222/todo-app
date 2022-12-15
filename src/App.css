@@ -153,3 +153,19 @@ h1 {
   color: #fff;
 }
 
+.header{
+  font-size: 2rem;
+  font-weight: 900;
+  height: 8vh;
+  
+}
+
+.alignCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board{
+  height: 52vh;
+}
