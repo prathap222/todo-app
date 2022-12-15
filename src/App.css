@@ -168,4 +168,40 @@ h1 {
 
 .board{
   height: 52vh;
+  font-size: 2rem;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.row{
+  display: flex;
+  height: 12vh;
+}
+.cell{
+  width: 12vw;
+  border: 1px solid whitesmoke;
+  color: black;
+  font-size: 5rem;
+}
+
+.yellow {
+  /* background-image: url("https://cliply.co/wp-content/uploads/2021/07/372107370_CROSS_MARK_400px.gif");
+  background-position: 50%; */
+  background-color: rgb(251, 247, 9);
+  
+}
+.orange{
+  /* background-image: url("https://images.squarespace-cdn.com/content/v1/542bd2a6e4b0852297eb5f88/1445409969283-CMCH5KNUB2HV0PN4QX2E/O-animation-%28940x604-pixels%29.gif?format=1500w");
+  background-position: 50%; */
+  background-color:orange;
+}
+
+.tbutton{
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+  padding: 16px 22px;
 }
