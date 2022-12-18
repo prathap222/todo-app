@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Bmi from '../components/Bmi';
+
+
+
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+      <Bmi/>
+    </div>
   )
 }
 
