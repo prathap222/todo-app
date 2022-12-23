@@ -43,7 +43,7 @@ const completeTodo = id => {
 
   return (
     <div className="todo-app">
-      <h1>Todo List</h1>
+      <h1 className="todo-h1">Todo List</h1>
       <TodoForm onSubmit={addTodo}/>
       <Todo todos={todos} completeTodo={completeTodo} removeTodo={removeTodo} updateTodo={updateTodo}/>
     </div>
